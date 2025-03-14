@@ -1,0 +1,83 @@
+.coverPic{
+    margin-left: 20%;
+    width: 255px;
+    height: 413px;
+}
+
+nav{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+nav{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    border-color: azure;
+    background-color: black;
+}
+
+button>a{
+    color: aliceblue;
+}
+
+#bookContainer{
+    display: flex;
+    justify-items: center;
+    margin-bottom: 30px;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+#pitch{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#tagline{
+    font-weight: 100;
+    font-size: large;
+}
+
+#signupBorder{
+    padding: 5%;
+    background-color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 500px) {
+    #bookContainer{
+        display: block;
+    }
+    nav{
+        display: flex;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    button{
+        margin: 5px;
+    }
+    .coverPic{
+        margin-left: 0%;
+        width: 128px;
+        height: 207px;
+        padding: 0%;
+    }
+}
+
+@media screen and (max-width: 550px) and (min-width: 500px) {
+    .coverPic{
+        margin-left: 5%;
+    }
+}
