@@ -69,7 +69,8 @@ body{
         margin: 5px;
     }
     .coverPic{
-        margin-left: 0%;
+        margin-left: auto;
+        margin-right: auto;
         width: 128px;
         height: 207px;
         padding: 0%;
