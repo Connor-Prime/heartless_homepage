@@ -45,7 +45,7 @@ body{
     background-color: white;
     width: 50%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: ;
     padding-left: 50px;
     padding-right: 50px;
     height: 75vh;
@@ -78,7 +78,8 @@ body{
     }
     #sample{
         width: 100%;
-        height: 100vh;
+        height: 80vh;
+        width: 90vw;
     }
     nav{
         display: flex;
