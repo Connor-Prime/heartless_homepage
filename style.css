@@ -59,11 +59,7 @@ body{
     font-weight: 100;
     font-size: large;
 }
-#sampleContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 #signupBorder{
     padding: 5%;
     background-color: rgb(255, 255, 255);
