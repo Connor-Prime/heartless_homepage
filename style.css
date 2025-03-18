@@ -4,20 +4,10 @@
     height: 413px;
 }
 
-nav{
-    display: flex;
-    background-color: black;
-    justify-content: space-around;
-    align-items: center;
-}
 
-
-
-nav{
-    background-color: black;
-    color: white;
-    padding: 10px;
-    margin-bottom: 20px;
+#mobiledropDown{
+    display: block;
+    height: 55px;
 }
 
 button{
@@ -60,36 +50,47 @@ body{
     font-size: large;
 }
 
+#about{
+    font-size: 1.2em;
+}
+
+#navbar{
+    align-self: flex-start;
+}
+
+#headerMenu{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.navButton{
+    display: none;
+    font-size: 1.4em;
+    border:none;
+}
+
 #signupBorder{
     padding: 5%;
     background-color: rgb(255, 255, 255);
 }
-
-@media screen and (max-width: 500px) {
+button{
+    margin: 5px;
+}
+ @media screen and (max-width: 600px) {
     #bookContainer{
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    #sampleContainer{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+ 
+    #mobiledropDown{
+        display: block;
     }
     #sample{
         width: 100%;
         height: 70vh;
         width: 80vw;
-    }
-    nav{
-        display: flex;
-        background-color: black;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    button{
-        margin: 5px;
     }
     .coverPic{
         margin-left: auto;
@@ -100,17 +101,9 @@ body{
     }
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 720px) and (min-width: 500px) {
     .coverPic{
         margin-left: 5%;
-    }
-}
-
-@media screen and (min-width: 720px) {
-    #bookContainer{
-       width: 750px;
-       margin-left: auto;
-       margin-right: auto;
     }
     #sampleContainer{
         display: flex;
@@ -119,16 +112,29 @@ body{
     }
 }
 
-@media screen and (min-width: 720px) {
-    nav{
-        display: flex;
-        background-color: black;
-        justify-content: left;
-        align-items: center;
-        flex-direction: row;
-    }
 
-    button{
-        margin-left: 30px;
+@media screen and (min-width: 700px) {
+    #sampleContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #mobiledropDown{
+        display: block;
     }
 }
+
+
+@media screen and (min-width: 720px) {
+    #bookContainer{
+       width: 100vw;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    #sampleContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+} 
